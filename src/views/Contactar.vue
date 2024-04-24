@@ -1,8 +1,8 @@
 <template>
   <main>
-    <router-link class="voltar" to="/">Página Principal</router-link>
+    <router-link class="voltar" to="/inandout/">Página Principal</router-link>
     <form @submit.prevent="sendEmail" ref="emailForm">
-      <h1>Contactar</h1>
+      <h1>Deixa nos uma mensagem !</h1>
       <div class="form-box">
         <label>Name</label>
         <input type="text" v-model="name" name="from_name" required />
@@ -122,6 +122,7 @@ form {
 
   h1 {
     text-align: center;
+    text-transform: capitalize;
     font-size: 2.2rem;
     font-weight: 300;
     padding-block-end: 0.5rem;

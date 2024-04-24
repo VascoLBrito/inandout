@@ -11,7 +11,7 @@ export default {
 };
 </script>
 <template>
-  <router-link to="/">
+  <router-link to="/inandout/">
     <Navigation></Navigation>
   </router-link>
   <router-view />

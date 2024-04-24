@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer-wrap">
-      <router-link to="/">
+      <router-link to="/inandout/">
         <img class="logo" src="../assets/LOGOTIPO.svg" />
       </router-link>
       <div class="footer-wrap2">

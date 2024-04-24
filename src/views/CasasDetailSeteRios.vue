@@ -1,6 +1,6 @@
 <template>
   <div v-if="casa" class="main">
-    <router-link class="voltar" to="/">Página Principal</router-link>
+    <router-link class="voltar" to="/inandout/">Página Principal</router-link>
     <div class="casa-detail">
       <div class="info">
         <h1>HU2i - {{ casa.nome }}</h1>
@@ -20,7 +20,7 @@
 
         <div class="houses-specs">
           <ul>
-            <li v-for="(spec, index) in casa.specs" :key="spec">
+            <li v-for="spec in casa.specs" :key="spec">
               <img :src="spec.svg" />
               <p>{{ spec.nome }}</p>
             </li>
@@ -66,7 +66,6 @@
 </template>
 
 <script>
-import VueGallery from "vue-gallery";
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
@@ -76,6 +75,71 @@ export default {
     return {
       showBigImage: false,
       bigImageIndex: null,
+      casa: {
+        id: 2,
+        nome: "In&Out Sete Rios",
+        subnome: "Lisboa, Portugal",
+        descrição: [
+          "-Metro a um minuto a pé.",
+          "-Rede Expressos a 1 min a pé, com acessos a todo o País.",
+          "-Jardim zoológico, restaurantes e Hospital IPO e Sta Maria.",
+          "",
+          "O apartamento encontra-se totalmente remodelado, pintado recentemente e completamente equipado.",
+          "",
+          "Muito central, numa zona nobre da cidade, com todos os transportes a menos de 1 minuto a pé.",
+          "Terá uma casa de banho disponível só para si, encostada ao quarto.",
+          "",
+          "Wi-Fi ilimitado e gratuito (fibra ótica)",
+          "Cozinha bem equipada.",
+          "Acesso dos hóspedes",
+          "A toda a casa, a qual se encontra totalmente equipada",
+        ],
+        imagem: [
+          "inandout/src/assets/SeteRios/1.webp",
+          "inandout/dsrc/assets/SeteRios/2.webp",
+          "inandout/src/assets/SeteRios/3.webp",
+          "inandout/src/assets/SeteRios/4.webp",
+          "inandout/src/assets/SeteRios/5.webp",
+          "inandout/src/assets/SeteRios/6.webp",
+          "inandout/src/assets/SeteRios/7.webp",
+          "inandout/src/assets/SeteRios/8.webp",
+          "inandout/src/assets/SeteRios/9.webp",
+          "inandout/src/assets/SeteRios/11.webp",
+          "inandout/src/assets/SeteRios/12.webp",
+          "inandout/src/assets/SeteRios/13.webp",
+          "inandout/src/assets/SeteRios/14.webp",
+          "inandout/src/assets/SeteRios/15.webp",
+          "inandout/src/assets/SeteRios/16.webp",
+          "inandout/src/assets/SeteRios/17.webp",
+          "inandout/src/assets/SeteRios/18.webp",
+        ],
+        specs: [
+          {
+            nome: " 2 casas de banho",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAapJREFUSEuNVgEShCAIXH9WL7t6Wf3MC0FExOymmasOZYHd9RLkkwDk+hB9awDfzOL9e3pGi54tdsvso0tssdFPia9M17ICjVmW20BzBfPP8fTjB+CWKs9y72DOEksFHO2aswG42j4d5BUo3ZASa7BNkIArA5SE0J6SnirZgHQ+/Tws6rG9bTeHRpES+g0Je8q4C7sSNmSqqsR06xy4jmMhiwxjZSMmwjsL3CBlyayfVRLf+m3EZHHEQ+YITpCQLOpQJVYHAZ0swkrJQKUvQtPOdDHns8lB4FhoPJY8N4AXpcxFV8DbIbu2jIN9cQWLoJufWgX3nSmoNX1kjiliEw3p/KzQqrjIDg7jgAs3MT+rVopAd2mR5qdNf0J2nc1ydzuDhAu5OMD+CPOuPbEQLqRMir2LJTBH6X5yWqgTH48fV3CK3g+5mtT12MMWHT5hmv6lbN6OgJlS2U0/0kZIUUzQC/PNCsTjigtFll5fiu6JfGPdLkF3ug0JxoEX7LKrSyDVOzeVQ5SNswp7xahWYGC6VgdcoA3qKdh1IBRjsHZM4M7b5T+BMKAh+wMaEcEhT+d3AAAAAABJRU5ErkJggg==",
+          },
+          {
+            nome: "Wi-Fi",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEuNVouVAiEMnBTi9WAF0ssVslCIRViBawUWcYVwBEIIP+94bxUXSDKTSZDAgwDEPNuM3YbyXj8pgqK8KZO8tvFBkN3qdOlmeGl/8vz/DoaTEqAJbu1JHexwLDmbwSnPCwQfMTpEHMaJk/kpp14AeH72KWw2BwRqyqfsWcNGCFtFhES4H8Uy5iAbVhOEUw6EGrmQzsh4MKJb+dZTIc19FYh14JPIDlk4AQpAPDU3c1btkheKBHU+y8Gy2+zZEfCUTRxtXpQIK1WVfyvrisyLHU/AYe0UBEUVHAVHzA8bO0CoVPRiUhVZWvIWDozpcgbBJMQuwaKQHKmqpditKFvOgJCWKl2K1HggB4pPSSAj4QODBG3FaJNgo5VKZWXdKghO8nkKdS5R50C4IWbqeLD2X6kLedPEGJHURKvEmuRlwYqu+3oYdxKC5G9pY24VTY4c7dPon/NQZFtQMrLsPEUZknJqTjpHf/WiDDs/BfVVJPgW9itFatwUaW3X5eSyjvqu8G3aByf/Xm+CmRtNvrTrD41elq4gPBBxkYL6AfBlK87UUxGhHJzvg2UrxhXAI0V9EYqagyH8MdZlDhrAjoRGESEkNPe19NpbtrOUqXVgy8oaHJNZ+43y093JtrfYi3v3T8BaV3VYcrYXzvYyMfmc8X2iakjywL6NbpDyTNc6uF+MbOU",
+          },
+          {
+            nome: "8 camas",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC",
+          },
+          {
+            nome: "3 quartos",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC",
+          },
+          {
+            nome: "cozinha",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdRJREFUSEuVVgmSxCAIhJetedmYl8V9mSuCiHhk1pqaSmKEpummgvCPhQCQ5f3dtQ1H7yD/spy0x3iXI+6eH9BJWJfA5T8nDgCQTrl7BZDXYG1xI9hYavuU0u7ymK51eeroftp+4bcFJ+ruwuGQgIP1CJrAsex4593yH0u3CDktRs9bsQSNvZc9DSdQKmZONDQj1eCcrL7/QAbqxwUIidvGcejaUbQTDEaA3JEjRFHXA5ADAqRMCRZLK1CBz+0akBtanqKiIKgv8UcUqrUvcwWj/AkpI0e4meu6ODhgAsyXqNkCoWpSY3/jzxrIHiI+r8Lsh2jhAHiJE+cqBclbDxrSpqLWwARZOZfglRzxRZfGG0UBMzzjtKiHL24sN194v0uJUc0vVL9VINqvtIjk1THEMTWZ5HhLssHS38qUKiDOd+sWA477goOHndOoGaLNRIT2l402mNHQ0s3VRnobGu6MAnmKxqkH1kRNpj88KjAdwNWt3bB7MmAAzF0tc6E6Y2xjPY/OycNsIVoG+58H4rpFbtg1hw4mmgeUi7Uc777JRdchA9LwEuTf410mGJzcZRMowTm0GeCb6Wk/DJYyted26JZpHDK6nRMYEwwfKUupHMiRrT/ibOUkIEpkZgAAAABJRU5ErkJggg==",
+          },
+          {
+            nome: "TV com cabo normal",
+            svg: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZtJREFUSEuNVgGShDAICz/Tl+3ty/RnrEhLKUU8Z3bGqUICCbiEdhEAlnsCiMe9HobL3tEoi11fu5/dSS2RDzakJLIDh1hPSB5JupmyT6rBf1d6+Y1rhGwAzqRGI11UcIdJgqMl2UMr5Fyef5XA2qhWQYqvhxpzALQBLEz3VvFBjI2FPWFfdRolvlXQ0Tvb3o6NgJMFsFKYlWMnuzHoczGVslPnpI5aPSLAXxBOkdMAWq9d8rynD65Vsw5/nyDeI4A3XiGMl8ffG0DjzRRFVgAC1fYvhksfGUD3SWebVvCk4VOJBHBLdLffazAhO5sGGdcWhZOJaADQtH4vxdHvm6fYENbq3qw+UFoBMT0tuBVs9ahpQHxraYNGLL3zAEHMgnLwUqJBov4i4usaN0IKQLg7kWpgjFK/rja1E33fRB7rWs+CTYNBQ4uKWbEKJg3igLzZtNhXcdCMmm5M32uf5XXiphfaap81kEX3ubbgtn4+X1eT96skl4/QOe2iYsP8J/vTeLdv8qRvuZDXfx5FG0cFoe9puwtTGUayY34BLsgkUdNfHgAAAABJRU5ErkJggg==",
+          },
+        ],
+      },
     };
   },
 
@@ -97,47 +161,43 @@ export default {
     },
   },
 
-  components: {
-    gallery: VueGallery,
-  },
+  // setup() {
+  //   const casa = ref(null);
+  //   const route = useRoute();
 
-  setup() {
-    const casa = ref(null);
-    const route = useRoute();
+  //   // onMounted(async () => {
+  //   //   try {
+  //   //     const response = await fetch("../../data/db.json");
 
-    onMounted(async () => {
-      try {
-        const response = await fetch("../../data/db.json");
+  //   //     if (!response.ok) {
+  //   //       throw new Error("Failed to fetch casa data");
+  //   //     }
 
-        if (!response.ok) {
-          throw new Error("Failed to fetch casa data");
-        }
+  //   //     const data = await response.json();
 
-        const data = await response.json();
+  //   //     // Check if data has 'casas' array
+  //   //     if (!Array.isArray(data.casas)) {
+  //   //       throw new Error("Data is not in the expected format");
+  //   //     }
 
-        // Check if data has 'casas' array
-        if (!Array.isArray(data.casas)) {
-          throw new Error("Data is not in the expected format");
-        }
+  //   //     // Find the casa object with the matching ID
+  //   //     const casaData = data.casas.find(
+  //   //       (casa) => casa.id === parseInt(route.params.id)
+  //   //     );
+  //   //     if (!casaData) {
+  //   //       throw new Error("Casa not found");
+  //   //     }
 
-        // Find the casa object with the matching ID
-        const casaData = data.casas.find(
-          (casa) => casa.id === parseInt(route.params.id)
-        );
-        if (!casaData) {
-          throw new Error("Casa not found");
-        }
+  //   //     casa.value = casaData;
+  //   //   } catch (error) {
+  //   //     console.error("Error fetching casa data:", error);
+  //   //   }
+  //   // });
 
-        casa.value = casaData;
-      } catch (error) {
-        console.error("Error fetching casa data:", error);
-      }
-    });
-
-    return {
-      casa,
-    };
-  },
+  //   return {
+  //     casa,
+  //   };
+  // },
 };
 </script>
 

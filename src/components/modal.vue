@@ -22,6 +22,7 @@ export default {
 
 <style scoped lang="scss">
 /* Modal styles */
+$modal-content-height: 20rem;
 .modal {
   display: block;
   position: fixed;
@@ -32,39 +33,38 @@ export default {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
-}
 
-$modal-content-height: 20rem;
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 40rem;
+    max-height: $modal-content-height;
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  max-width: 40rem;
-  max-height: $modal-content-height;
+    .text {
+      display: grid;
+      gap: 1rem;
+      place-items: center;
+      margin-block: calc(#{$modal-content-height}/ 3);
+    }
+  }
 
-  .text {
-    display: grid;
-    gap: 1rem;
-    place-items: center;
-    margin-block: calc(#{$modal-content-height}/ 3);
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 // media queries
 
 @media screen and (max-width: 700px) {

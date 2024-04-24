@@ -1,21 +1,28 @@
 // router/index.js
 import { createRouter, createWebHistory } from "vue-router";
 import Main from "../views/Main.vue";
-import CasasDetail from "../views/CasasDetail.vue";
+import CasasDetailCarcavelos from "../views/CasasDetailCarcavelos.vue";
+import CasasDetailSeteRios from "../views/CasasDetailSeteRios.vue";
 import Contactar from "../views/Contactar.vue";
 import ZonaInteresse from "../views/ZonasInteresse.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/inandout/",
     name: "Main",
     component: Main,
   },
   {
-    path: "/casa/:id",
-    name: "CasasDetail",
-    component: CasasDetail,
-    props: true,
+    path: "/inandout/In&Out-Carcavelos",
+    name: "CasasDetail-Carcavelos",
+    component: CasasDetailCarcavelos,
+    // props: true,
+  },
+  {
+    path: "/inandout/In&Out-SeteRios",
+    name: "CasasDetail-SeteRios",
+    component: CasasDetailSeteRios,
+    // props: true,
   },
   {
     path: "/contactar",

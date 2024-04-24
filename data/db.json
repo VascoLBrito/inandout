@@ -1,128 +1,127 @@
 {
-  "casas": [
-    {
-      "id": 1,
-      "nome": "In&Out Carcavelos",
-      "subnome": "Carcavelos, Portugal",
-      "descrição": [
-        "Apartamento totalmente remodelado e equipado, com espaço exterior com churrasqueira e espaço para animais de estimação.",
-        "",
-        "  Localizado numa zona muito calma e sossegada, com todas as comodidades nas proximidades (transportes, hipermercado, creche, mercado acesso a Oeiras, Lisboa, Cascais) ideal para quem tem crianças ou animais de estimação."
-      ],
-      "imagem": [
-        "src/assets/Carcavelos/1.webp",
-        "src/assets/Carcavelos/2.webp",
-        "src/assets/Carcavelos/3.webp",
-        "src/assets/Carcavelos/4.webp",
-        "src/assets/Carcavelos/5.webp",
-        "src/assets/Carcavelos/6.webp",
-        "src/assets/Carcavelos/7.webp",
-        "src/assets/Carcavelos/8.webp",
-        "src/assets/Carcavelos/9.webp",
-        "src/assets/Carcavelos/10.webp",
-        "src/assets/Carcavelos/11.webp",
-        "src/assets/Carcavelos/12.webp"
-      ],
-      "specs": [
-        {
-          "nome": "2 casas de banho",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAapJREFUSEuNVgEShCAIXH9WL7t6Wf3MC0FExOymmasOZYHd9RLkkwDk+hB9awDfzOL9e3pGi54tdsvso0tssdFPia9M17ICjVmW20BzBfPP8fTjB+CWKs9y72DOEksFHO2aswG42j4d5BUo3ZASa7BNkIArA5SE0J6SnirZgHQ+/Tws6rG9bTeHRpES+g0Je8q4C7sSNmSqqsR06xy4jmMhiwxjZSMmwjsL3CBlyayfVRLf+m3EZHHEQ+YITpCQLOpQJVYHAZ0swkrJQKUvQtPOdDHns8lB4FhoPJY8N4AXpcxFV8DbIbu2jIN9cQWLoJufWgX3nSmoNX1kjiliEw3p/KzQqrjIDg7jgAs3MT+rVopAd2mR5qdNf0J2nc1ydzuDhAu5OMD+CPOuPbEQLqRMir2LJTBH6X5yWqgTH48fV3CK3g+5mtT12MMWHT5hmv6lbN6OgJlS2U0/0kZIUUzQC/PNCsTjigtFll5fiu6JfGPdLkF3ug0JxoEX7LKrSyDVOzeVQ5SNswp7xahWYGC6VgdcoA3qKdh1IBRjsHZM4M7b5T+BMKAh+wMaEcEhT+d3AAAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "Wi-Fi",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEuNVouVAiEMnBTi9WAF0ssVslCIRViBawUWcYVwBEIIP+94bxUXSDKTSZDAgwDEPNuM3YbyXj8pgqK8KZO8tvFBkN3qdOlmeGl/8vz/DoaTEqAJbu1JHexwLDmbwSnPCwQfMTpEHMaJk/kpp14AeH72KWw2BwRqyqfsWcNGCFtFhES4H8Uy5iAbVhOEUw6EGrmQzsh4MKJb+dZTIc19FYh14JPIDlk4AQpAPDU3c1btkheKBHU+y8Gy2+zZEfCUTRxtXpQIK1WVfyvrisyLHU/AYe0UBEUVHAVHzA8bO0CoVPRiUhVZWvIWDozpcgbBJMQuwaKQHKmqpditKFvOgJCWKl2K1HggB4pPSSAj4QODBG3FaJNgo5VKZWXdKghO8nkKdS5R50C4IWbqeLD2X6kLedPEGJHURKvEmuRlwYqu+3oYdxKC5G9pY24VTY4c7dPon/NQZFtQMrLsPEUZknJqTjpHf/WiDDs/BfVVJPgW9itFatwUaW3X5eSyjvqu8G3aByf/Xm+CmRtNvrTrD41elq4gPBBxkYL6AfBlK87UUxGhHJzvg2UrxhXAI0V9EYqagyH8MdZlDhrAjoRGESEkNPe19NpbtrOUqXVgy8oaHJNZ+43y093JtrfYi3v3T8BaV3VYcrYXzvYyMfmc8X2iakjywL6NbpDyTNc6uF+MbOUdOlfhNQAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "Permitido animais",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbxJREFUSEuVVmuawjAIHE629WS2J7OeLFsCAUKw7vaHX9WGeTAkJYAAakCDXIT6Xv/+wwNShFovy+UWDKv1rxthFj8H37mMCUrKhMergQ5QO01xqcxLJgUubXBJ61V0exBwDlcjw+8KbhgR0Oaivdx5iTsAOofv0SimHLoa+5y4yNdEOipmEOy2SoMjFom/uyLvq2QLgihwTlyUr2ci2sG8ybLgBWDj5TdJFQXe/w5wWfcs+tHJmwLAAAy9SOlqUXJNyZ0gPHwOBGlrAuKmzYsfYgU2t6iMMk/DcVkSLPKiG9AUJA2OZP+tIJM4s9S9pWHjOgeWxJUdAFbBcl9xa7GdhnBcv+eQLHuRhrEE4PLHxW7XQj8qhZWFwq4+NnnkrxrQ3G8eLi7KzZy2jWxXAugYyzgVacqjYsORI249EE/7318ULFOic5N2BP26KvDTYMxUwC4T7ADFuXLfAwLFNWFEoo1TjcKiRVoLseOOyBW7R20CSNviMiP5FKzZzQdRARB5eMRTk/tDyrnz8o1v1v5RQVbzFeDD1tQCXhUUc7WaA3/JSO1JzUhvC9PhcwMQKeurx+fBqLM/qnNYfgEIg9wjgvhgXAAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "2 camas",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
-        },
-        {
-          "nome": "2 quartos",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
-        },
-
-        {
-          "nome": "cozinha",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdRJREFUSEuVVgmSxCAIhJetedmYl8V9mSuCiHhk1pqaSmKEpummgvCPhQCQ5f3dtQ1H7yD/spy0x3iXI+6eH9BJWJfA5T8nDgCQTrl7BZDXYG1xI9hYavuU0u7ymK51eeroftp+4bcFJ+ruwuGQgIP1CJrAsex4593yH0u3CDktRs9bsQSNvZc9DSdQKmZONDQj1eCcrL7/QAbqxwUIidvGcejaUbQTDEaA3JEjRFHXA5ADAqRMCRZLK1CBz+0akBtanqKiIKgv8UcUqrUvcwWj/AkpI0e4meu6ODhgAsyXqNkCoWpSY3/jzxrIHiI+r8Lsh2jhAHiJE+cqBclbDxrSpqLWwARZOZfglRzxRZfGG0UBMzzjtKiHL24sN194v0uJUc0vVL9VINqvtIjk1THEMTWZ5HhLssHS38qUKiDOd+sWA477goOHndOoGaLNRIT2l402mNHQ0s3VRnobGu6MAnmKxqkH1kRNpj88KjAdwNWt3bB7MmAAzF0tc6E6Y2xjPY/OycNsIVoG+58H4rpFbtg1hw4mmgeUi7Uc777JRdchA9LwEuTf410mGJzcZRMowTm0GeCb6Wk/DJYyted26JZpHDK6nRMYEwwfKUupHMiRrT/ibOUkIEpkZgAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "garagem",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeVJREFUSEuNlb11wzAMhD/0ziDZwhoj2SCF3SS95QHSxF0WyBjWUOkZ/gsEqVh6z7KeKPAOhwMoDC4BHOmeLv1GQNy6VFf7hxAVfvFeY/S+I/QxZKViQ8LWLdMhO5PTFon6fv3AAGj8/3fZk2iWaPjpETgiXHTufW0qocULffUx4b+pWc3AwLhWOh22VZi4g1i6fZHhHtkjC7ipF613FzFGjoi7+oxnE9NJlAEIm+eUjQWNETKhe/ZuIp1DagZZ66B9AAgbN+wH9qu9kimW1ply9tGfFS1vUNgnAGO7gQt1qeZsilDs8BwT0unMvj8vK9Pe+70ym1aeELc0AFmaIJHF6G3TTwvzTXJUGRJxTojD5ckTrHZw8LuJNCZ+IMXUAWYbrSw8RQ2Rd3A34NzSa6R7Bt6AE8gnuI8BQLWgRi7ZrFlujrOyUGXRI7gpcpUI+AI5gfsBXlX323oEWb6BF5AbuLOQpRbvqeSiKmiDXDbtndPXU39TASCODd0HBWDtw62DRTd2xWsqvyBM1qapix9acI+P1zFjO1mflGrNDLhka3OgNi4IFSidnCjnACWTiHo/mt5GqEZPA7Bymb0JLh7y6pGasbujvWNsOngkPJdht+fE78+yvpnH7W1rsEOKhzZN3LPsfy5iziNBR1SeAAAAAElFTkSuQmCC"
-        }
-      ],
-      "vermais": "https://www.airbnb.pt/rooms/44418266/amenities?guests=1&adults=1&s=67&unique_share_id=d1c09763-854e-4281-acc1-0100e4892cd9&source_impression_id=p3_1713108789_U%2B89swwrHJfIm2mo",
-      "titleLink": "https://www.airbnb.pt/rooms/44418266?guests=1&adults=1&s=67&unique_share_id=d1c09763-854e-4281-acc1-0100e4892cd9&source_impression_id=p3_1713108789_U%2B89swwrHJfIm2mo"
-    },
-    {
-      "id": 2,
-      "nome": "In&Out Sete Rios",
-      "subnome": "Lisboa, Portugal",
-      "descrição": [
-        "-Metro a um minuto a pé.",
-        "-Rede Expressos a 1 min a pé, com acessos a todo o País.",
-        "-Jardim zoológico, restaurantes e Hospital IPO e Sta Maria.",
-        "",
-        "O apartamento encontra-se totalmente remodelado, pintado recentemente e completamente equipado.",
-        "",
-        "Muito central, numa zona nobre da cidade, com todos os transportes a menos de 1 minuto a pé.",
-        "Terá uma casa de banho disponível só para si, encostada ao quarto.",
-        "",
-        "Wi-Fi ilimitado e gratuito (fibra ótica)",
-        "Cozinha bem equipada.",
-        "Acesso dos hóspedes",
-        "A toda a casa, a qual se encontra totalmente equipada"
-      ],
-      "imagem": [
-        "src/assets/SeteRios/1.webp",
-        "src/assets/SeteRios/2.webp",
-        "src/assets/SeteRios/3.webp",
-        "src/assets/SeteRios/4.webp",
-        "src/assets/SeteRios/5.webp",
-        "src/assets/SeteRios/6.webp",
-        "src/assets/SeteRios/7.webp",
-        "src/assets/SeteRios/8.webp",
-        "src/assets/SeteRios/9.webp",
-        "src/assets/SeteRios/11.webp",
-        "src/assets/SeteRios/12.webp",
-        "src/assets/SeteRios/13.webp",
-        "src/assets/SeteRios/14.webp",
-        "src/assets/SeteRios/15.webp",
-        "src/assets/SeteRios/16.webp",
-        "src/assets/SeteRios/17.webp",
-        "src/assets/SeteRios/18.webp"
-      ],
-      "specs": [
-        {
-          "nome": " 2 casas de banho",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAapJREFUSEuNVgEShCAIXH9WL7t6Wf3MC0FExOymmasOZYHd9RLkkwDk+hB9awDfzOL9e3pGi54tdsvso0tssdFPia9M17ICjVmW20BzBfPP8fTjB+CWKs9y72DOEksFHO2aswG42j4d5BUo3ZASa7BNkIArA5SE0J6SnirZgHQ+/Tws6rG9bTeHRpES+g0Je8q4C7sSNmSqqsR06xy4jmMhiwxjZSMmwjsL3CBlyayfVRLf+m3EZHHEQ+YITpCQLOpQJVYHAZ0swkrJQKUvQtPOdDHns8lB4FhoPJY8N4AXpcxFV8DbIbu2jIN9cQWLoJufWgX3nSmoNX1kjiliEw3p/KzQqrjIDg7jgAs3MT+rVopAd2mR5qdNf0J2nc1ydzuDhAu5OMD+CPOuPbEQLqRMir2LJTBH6X5yWqgTH48fV3CK3g+5mtT12MMWHT5hmv6lbN6OgJlS2U0/0kZIUUzQC/PNCsTjigtFll5fiu6JfGPdLkF3ug0JxoEX7LKrSyDVOzeVQ5SNswp7xahWYGC6VgdcoA3qKdh1IBRjsHZM4M7b5T+BMKAh+wMaEcEhT+d3AAAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "Wi-Fi",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEuNVouVAiEMnBTi9WAF0ssVslCIRViBawUWcYVwBEIIP+94bxUXSDKTSZDAgwDEPNuM3YbyXj8pgqK8KZO8tvFBkN3qdOlmeGl/8vz/DoaTEqAJbu1JHexwLDmbwSnPCwQfMTpEHMaJk/kpp14AeH72KWw2BwRqyqfsWcNGCFtFhES4H8Uy5iAbVhOEUw6EGrmQzsh4MKJb+dZTIc19FYh14JPIDlk4AQpAPDU3c1btkheKBHU+y8Gy2+zZEfCUTRxtXpQIK1WVfyvrisyLHU/AYe0UBEUVHAVHzA8bO0CoVPRiUhVZWvIWDozpcgbBJMQuwaKQHKmqpditKFvOgJCWKl2K1HggB4pPSSAj4QODBG3FaJNgo5VKZWXdKghO8nkKdS5R50C4IWbqeLD2X6kLedPEGJHURKvEmuRlwYqu+3oYdxKC5G9pY24VTY4c7dPon/NQZFtQMrLsPEUZknJqTjpHf/WiDDs/BfVVJPgW9itFatwUaW3X5eSyjvqu8G3aByf/Xm+CmRtNvrTrD41elq4gPBBxkYL6AfBlK87UUxGhHJzvg2UrxhXAI0V9EYqagyH8MdZlDhrAjoRGESEkNPe19NpbtrOUqXVgy8oaHJNZ+43y093JtrfYi3v3T8BaV3VYcrYXzvYyMfmc8X2iakjywL6NbpDyTNc6uF+MbOU"
-        },
-        {
-          "nome": "8 camas",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
-        },
-        {
-          "nome": "3 quartos",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
-        },
-        {
-          "nome": "cozinha",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdRJREFUSEuVVgmSxCAIhJetedmYl8V9mSuCiHhk1pqaSmKEpummgvCPhQCQ5f3dtQ1H7yD/spy0x3iXI+6eH9BJWJfA5T8nDgCQTrl7BZDXYG1xI9hYavuU0u7ymK51eeroftp+4bcFJ+ruwuGQgIP1CJrAsex4593yH0u3CDktRs9bsQSNvZc9DSdQKmZONDQj1eCcrL7/QAbqxwUIidvGcejaUbQTDEaA3JEjRFHXA5ADAqRMCRZLK1CBz+0akBtanqKiIKgv8UcUqrUvcwWj/AkpI0e4meu6ODhgAsyXqNkCoWpSY3/jzxrIHiI+r8Lsh2jhAHiJE+cqBclbDxrSpqLWwARZOZfglRzxRZfGG0UBMzzjtKiHL24sN194v0uJUc0vVL9VINqvtIjk1THEMTWZ5HhLssHS38qUKiDOd+sWA477goOHndOoGaLNRIT2l402mNHQ0s3VRnobGu6MAnmKxqkH1kRNpj88KjAdwNWt3bB7MmAAzF0tc6E6Y2xjPY/OycNsIVoG+58H4rpFbtg1hw4mmgeUi7Uc777JRdchA9LwEuTf410mGJzcZRMowTm0GeCb6Wk/DJYyted26JZpHDK6nRMYEwwfKUupHMiRrT/ibOUkIEpkZgAAAABJRU5ErkJggg=="
-        },
-        {
-          "nome": "TV com cabo normal",
-          "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZtJREFUSEuNVgGShDAICz/Tl+3ty/RnrEhLKUU8Z3bGqUICCbiEdhEAlnsCiMe9HobL3tEoi11fu5/dSS2RDzakJLIDh1hPSB5JupmyT6rBf1d6+Y1rhGwAzqRGI11UcIdJgqMl2UMr5Fyef5XA2qhWQYqvhxpzALQBLEz3VvFBjI2FPWFfdRolvlXQ0Tvb3o6NgJMFsFKYlWMnuzHoczGVslPnpI5aPSLAXxBOkdMAWq9d8rynD65Vsw5/nyDeI4A3XiGMl8ffG0DjzRRFVgAC1fYvhksfGUD3SWebVvCk4VOJBHBLdLffazAhO5sGGdcWhZOJaADQtH4vxdHvm6fYENbq3qw+UFoBMT0tuBVs9ahpQHxraYNGLL3zAEHMgnLwUqJBov4i4usaN0IKQLg7kWpgjFK/rja1E33fRB7rWs+CTYNBQ4uKWbEKJg3igLzZtNhXcdCMmm5M32uf5XXiphfaap81kEX3ubbgtn4+X1eT96skl4/QOe2iYsP8J/vTeLdv8qRvuZDXfx5FG0cFoe9puwtTGUayY34BLsgkUdNfHgAAAABJRU5ErkJggg=="
-        }
-      ],
-      "vermais": "https://www.airbnb.pt/rooms/15789410/amenities?guests=1&adults=1&s=67&unique_share_id=a19c0604-bd2d-489b-bfcc-b1436b4559c2&source_impression_id=p3_1713108777_9TuNQli9L8fW0T58",
-      "titleLink": "https://www.airbnb.pt/rooms/15789410?guests=1&adults=1&s=67&unique_share_id=a19c0604-bd2d-489b-bfcc-b1436b4559c2&source_impression_id=p3_1713108777_9TuNQli9L8fW0T58"
-    }
-  ]
+  // "casas": [
+  //   {
+  //     "id": 1,
+  //     "nome": "In&Out Carcavelos",
+  //     "subnome": "Carcavelos, Portugal",
+  //     "descrição": [
+  //       "Apartamento totalmente remodelado e equipado, com espaço exterior com churrasqueira e espaço para animais de estimação.",
+  //       "",
+  //       "  Localizado numa zona muito calma e sossegada, com todas as comodidades nas proximidades (transportes, hipermercado, creche, mercado acesso a Oeiras, Lisboa, Cascais) ideal para quem tem crianças ou animais de estimação."
+  //     ],
+  //     "imagem": [
+  //       "src/assets/Carcavelos/1.webp",
+  //       "src/assets/Carcavelos/2.webp",
+  //       "src/assets/Carcavelos/3.webp",
+  //       "src/assets/Carcavelos/4.webp",
+  //       "src/assets/Carcavelos/5.webp",
+  //       "src/assets/Carcavelos/6.webp",
+  //       "src/assets/Carcavelos/7.webp",
+  //       "src/assets/Carcavelos/8.webp",
+  //       "src/assets/Carcavelos/9.webp",
+  //       "src/assets/Carcavelos/10.webp",
+  //       "src/assets/Carcavelos/11.webp",
+  //       "src/assets/Carcavelos/12.webp"
+  //     ],
+  //     "specs": [
+  //       {
+  //         "nome": "2 casas de banho",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAapJREFUSEuNVgEShCAIXH9WL7t6Wf3MC0FExOymmasOZYHd9RLkkwDk+hB9awDfzOL9e3pGi54tdsvso0tssdFPia9M17ICjVmW20BzBfPP8fTjB+CWKs9y72DOEksFHO2aswG42j4d5BUo3ZASa7BNkIArA5SE0J6SnirZgHQ+/Tws6rG9bTeHRpES+g0Je8q4C7sSNmSqqsR06xy4jmMhiwxjZSMmwjsL3CBlyayfVRLf+m3EZHHEQ+YITpCQLOpQJVYHAZ0swkrJQKUvQtPOdDHns8lB4FhoPJY8N4AXpcxFV8DbIbu2jIN9cQWLoJufWgX3nSmoNX1kjiliEw3p/KzQqrjIDg7jgAs3MT+rVopAd2mR5qdNf0J2nc1ydzuDhAu5OMD+CPOuPbEQLqRMir2LJTBH6X5yWqgTH48fV3CK3g+5mtT12MMWHT5hmv6lbN6OgJlS2U0/0kZIUUzQC/PNCsTjigtFll5fiu6JfGPdLkF3ug0JxoEX7LKrSyDVOzeVQ5SNswp7xahWYGC6VgdcoA3qKdh1IBRjsHZM4M7b5T+BMKAh+wMaEcEhT+d3AAAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "Wi-Fi",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEuNVouVAiEMnBTi9WAF0ssVslCIRViBawUWcYVwBEIIP+94bxUXSDKTSZDAgwDEPNuM3YbyXj8pgqK8KZO8tvFBkN3qdOlmeGl/8vz/DoaTEqAJbu1JHexwLDmbwSnPCwQfMTpEHMaJk/kpp14AeH72KWw2BwRqyqfsWcNGCFtFhES4H8Uy5iAbVhOEUw6EGrmQzsh4MKJb+dZTIc19FYh14JPIDlk4AQpAPDU3c1btkheKBHU+y8Gy2+zZEfCUTRxtXpQIK1WVfyvrisyLHU/AYe0UBEUVHAVHzA8bO0CoVPRiUhVZWvIWDozpcgbBJMQuwaKQHKmqpditKFvOgJCWKl2K1HggB4pPSSAj4QODBG3FaJNgo5VKZWXdKghO8nkKdS5R50C4IWbqeLD2X6kLedPEGJHURKvEmuRlwYqu+3oYdxKC5G9pY24VTY4c7dPon/NQZFtQMrLsPEUZknJqTjpHf/WiDDs/BfVVJPgW9itFatwUaW3X5eSyjvqu8G3aByf/Xm+CmRtNvrTrD41elq4gPBBxkYL6AfBlK87UUxGhHJzvg2UrxhXAI0V9EYqagyH8MdZlDhrAjoRGESEkNPe19NpbtrOUqXVgy8oaHJNZ+43y093JtrfYi3v3T8BaV3VYcrYXzvYyMfmc8X2iakjywL6NbpDyTNc6uF+MbOUdOlfhNQAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "Permitido animais",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbxJREFUSEuVVmuawjAIHE629WS2J7OeLFsCAUKw7vaHX9WGeTAkJYAAakCDXIT6Xv/+wwNShFovy+UWDKv1rxthFj8H37mMCUrKhMergQ5QO01xqcxLJgUubXBJ61V0exBwDlcjw+8KbhgR0Oaivdx5iTsAOofv0SimHLoa+5y4yNdEOipmEOy2SoMjFom/uyLvq2QLgihwTlyUr2ci2sG8ybLgBWDj5TdJFQXe/w5wWfcs+tHJmwLAAAy9SOlqUXJNyZ0gPHwOBGlrAuKmzYsfYgU2t6iMMk/DcVkSLPKiG9AUJA2OZP+tIJM4s9S9pWHjOgeWxJUdAFbBcl9xa7GdhnBcv+eQLHuRhrEE4PLHxW7XQj8qhZWFwq4+NnnkrxrQ3G8eLi7KzZy2jWxXAugYyzgVacqjYsORI249EE/7318ULFOic5N2BP26KvDTYMxUwC4T7ADFuXLfAwLFNWFEoo1TjcKiRVoLseOOyBW7R20CSNviMiP5FKzZzQdRARB5eMRTk/tDyrnz8o1v1v5RQVbzFeDD1tQCXhUUc7WaA3/JSO1JzUhvC9PhcwMQKeurx+fBqLM/qnNYfgEIg9wjgvhgXAAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "2 camas",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
+  //       },
+  //       {
+  //         "nome": "2 quartos",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
+  //       },
+  //       {
+  //         "nome": "cozinha",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdRJREFUSEuVVgmSxCAIhJetedmYl8V9mSuCiHhk1pqaSmKEpummgvCPhQCQ5f3dtQ1H7yD/spy0x3iXI+6eH9BJWJfA5T8nDgCQTrl7BZDXYG1xI9hYavuU0u7ymK51eeroftp+4bcFJ+ruwuGQgIP1CJrAsex4593yH0u3CDktRs9bsQSNvZc9DSdQKmZONDQj1eCcrL7/QAbqxwUIidvGcejaUbQTDEaA3JEjRFHXA5ADAqRMCRZLK1CBz+0akBtanqKiIKgv8UcUqrUvcwWj/AkpI0e4meu6ODhgAsyXqNkCoWpSY3/jzxrIHiI+r8Lsh2jhAHiJE+cqBclbDxrSpqLWwARZOZfglRzxRZfGG0UBMzzjtKiHL24sN194v0uJUc0vVL9VINqvtIjk1THEMTWZ5HhLssHS38qUKiDOd+sWA477goOHndOoGaLNRIT2l402mNHQ0s3VRnobGu6MAnmKxqkH1kRNpj88KjAdwNWt3bB7MmAAzF0tc6E6Y2xjPY/OycNsIVoG+58H4rpFbtg1hw4mmgeUi7Uc777JRdchA9LwEuTf410mGJzcZRMowTm0GeCb6Wk/DJYyted26JZpHDK6nRMYEwwfKUupHMiRrT/ibOUkIEpkZgAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "garagem",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeVJREFUSEuNlb11wzAMhD/0ziDZwhoj2SCF3SS95QHSxF0WyBjWUOkZ/gsEqVh6z7KeKPAOhwMoDC4BHOmeLv1GQNy6VFf7hxAVfvFeY/S+I/QxZKViQ8LWLdMhO5PTFon6fv3AAGj8/3fZk2iWaPjpETgiXHTufW0qocULffUx4b+pWc3AwLhWOh22VZi4g1i6fZHhHtkjC7ipF613FzFGjoi7+oxnE9NJlAEIm+eUjQWNETKhe/ZuIp1DagZZ66B9AAgbN+wH9qu9kimW1ply9tGfFS1vUNgnAGO7gQt1qeZsilDs8BwT0unMvj8vK9Pe+70ym1aeELc0AFmaIJHF6G3TTwvzTXJUGRJxTojD5ckTrHZw8LuJNCZ+IMXUAWYbrSw8RQ2Rd3A34NzSa6R7Bt6AE8gnuI8BQLWgRi7ZrFlujrOyUGXRI7gpcpUI+AI5gfsBXlX323oEWb6BF5AbuLOQpRbvqeSiKmiDXDbtndPXU39TASCODd0HBWDtw62DRTd2xWsqvyBM1qapix9acI+P1zFjO1mflGrNDLhka3OgNi4IFSidnCjnACWTiHo/mt5GqEZPA7Bymb0JLh7y6pGasbujvWNsOngkPJdht+fE78+yvpnH7W1rsEOKhzZN3LPsfy5iziNBR1SeAAAAAElFTkSuQmCC"
+  //       }
+  //     ],
+  //     "vermais": "https://www.airbnb.pt/rooms/44418266/amenities?guests=1&adults=1&s=67&unique_share_id=d1c09763-854e-4281-acc1-0100e4892cd9&source_impression_id=p3_1713108789_U%2B89swwrHJfIm2mo",
+  //     "titleLink": "https://www.airbnb.pt/rooms/44418266?guests=1&adults=1&s=67&unique_share_id=d1c09763-854e-4281-acc1-0100e4892cd9&source_impression_id=p3_1713108789_U%2B89swwrHJfIm2mo"
+  //   },
+  //   {
+  //     "id": 2,
+  //     "nome": "In&Out Sete Rios",
+  //     "subnome": "Lisboa, Portugal",
+  //     "descrição": [
+  //       "-Metro a um minuto a pé.",
+  //       "-Rede Expressos a 1 min a pé, com acessos a todo o País.",
+  //       "-Jardim zoológico, restaurantes e Hospital IPO e Sta Maria.",
+  //       "",
+  //       "O apartamento encontra-se totalmente remodelado, pintado recentemente e completamente equipado.",
+  //       "",
+  //       "Muito central, numa zona nobre da cidade, com todos os transportes a menos de 1 minuto a pé.",
+  //       "Terá uma casa de banho disponível só para si, encostada ao quarto.",
+  //       "",
+  //       "Wi-Fi ilimitado e gratuito (fibra ótica)",
+  //       "Cozinha bem equipada.",
+  //       "Acesso dos hóspedes",
+  //       "A toda a casa, a qual se encontra totalmente equipada"
+  //     ],
+  //     "imagem": [
+  //       "src/assets/SeteRios/1.webp",
+  //       "src/assets/SeteRios/2.webp",
+  //       "src/assets/SeteRios/3.webp",
+  //       "src/assets/SeteRios/4.webp",
+  //       "src/assets/SeteRios/5.webp",
+  //       "src/assets/SeteRios/6.webp",
+  //       "src/assets/SeteRios/7.webp",
+  //       "src/assets/SeteRios/8.webp",
+  //       "src/assets/SeteRios/9.webp",
+  //       "src/assets/SeteRios/11.webp",
+  //       "src/assets/SeteRios/12.webp",
+  //       "src/assets/SeteRios/13.webp",
+  //       "src/assets/SeteRios/14.webp",
+  //       "src/assets/SeteRios/15.webp",
+  //       "src/assets/SeteRios/16.webp",
+  //       "src/assets/SeteRios/17.webp",
+  //       "src/assets/SeteRios/18.webp"
+  //     ],
+  //     "specs": [
+  //       {
+  //         "nome": " 2 casas de banho",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAapJREFUSEuNVgEShCAIXH9WL7t6Wf3MC0FExOymmasOZYHd9RLkkwDk+hB9awDfzOL9e3pGi54tdsvso0tssdFPia9M17ICjVmW20BzBfPP8fTjB+CWKs9y72DOEksFHO2aswG42j4d5BUo3ZASa7BNkIArA5SE0J6SnirZgHQ+/Tws6rG9bTeHRpES+g0Je8q4C7sSNmSqqsR06xy4jmMhiwxjZSMmwjsL3CBlyayfVRLf+m3EZHHEQ+YITpCQLOpQJVYHAZ0swkrJQKUvQtPOdDHns8lB4FhoPJY8N4AXpcxFV8DbIbu2jIN9cQWLoJufWgX3nSmoNX1kjiliEw3p/KzQqrjIDg7jgAs3MT+rVopAd2mR5qdNf0J2nc1ydzuDhAu5OMD+CPOuPbEQLqRMir2LJTBH6X5yWqgTH48fV3CK3g+5mtT12MMWHT5hmv6lbN6OgJlS2U0/0kZIUUzQC/PNCsTjigtFll5fiu6JfGPdLkF3ug0JxoEX7LKrSyDVOzeVQ5SNswp7xahWYGC6VgdcoA3qKdh1IBRjsHZM4M7b5T+BMKAh+wMaEcEhT+d3AAAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "Wi-Fi",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEuNVouVAiEMnBTi9WAF0ssVslCIRViBawUWcYVwBEIIP+94bxUXSDKTSZDAgwDEPNuM3YbyXj8pgqK8KZO8tvFBkN3qdOlmeGl/8vz/DoaTEqAJbu1JHexwLDmbwSnPCwQfMTpEHMaJk/kpp14AeH72KWw2BwRqyqfsWcNGCFtFhES4H8Uy5iAbVhOEUw6EGrmQzsh4MKJb+dZTIc19FYh14JPIDlk4AQpAPDU3c1btkheKBHU+y8Gy2+zZEfCUTRxtXpQIK1WVfyvrisyLHU/AYe0UBEUVHAVHzA8bO0CoVPRiUhVZWvIWDozpcgbBJMQuwaKQHKmqpditKFvOgJCWKl2K1HggB4pPSSAj4QODBG3FaJNgo5VKZWXdKghO8nkKdS5R50C4IWbqeLD2X6kLedPEGJHURKvEmuRlwYqu+3oYdxKC5G9pY24VTY4c7dPon/NQZFtQMrLsPEUZknJqTjpHf/WiDDs/BfVVJPgW9itFatwUaW3X5eSyjvqu8G3aByf/Xm+CmRtNvrTrD41elq4gPBBxkYL6AfBlK87UUxGhHJzvg2UrxhXAI0V9EYqagyH8MdZlDhrAjoRGESEkNPe19NpbtrOUqXVgy8oaHJNZ+43y093JtrfYi3v3T8BaV3VYcrYXzvYyMfmc8X2iakjywL6NbpDyTNc6uF+MbOU"
+  //       },
+  //       {
+  //         "nome": "8 camas",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
+  //       },
+  //       {
+  //         "nome": "3 quartos",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEuVVlGiwyAIg5ttJ1t7svVmTgpiQO3z9audCiSEOKZ/P0xEZfuU7CZiIi5yzF88wBjuIcFkSSJuV/TnzrRBPh2Bor53GH7mJyowlr4rBx7TOHAEcKDYuyZvD7KXolvom2HlWZ+OIDLeEPjuWUt7rBY3BFkluH9vCNbtee6zAPKzkQZdKAaZQ/81aLGT4Zzla0CVdg+SiZ422QlRBUjqgTdscoeYEKiKfDmNxeZMDOiQ6y8RvZJ4vFhMjAhS4ouI301OmK0FvyoJJxFfXdo47av09KrEfahIgXzWs0frWOvJt2j174pCkrjUoHsT6sFmqMh5KdT7hAg0zryBazsZh66Yp91CQKvAQoO2tj9cylpq9iLNxyVIcDpTo+lik8KsjBQ9lDuVqcu/T2/qgQ/RUe3wA1MO8l15w2oy+KwyPVqsXLMNGnOQKRY4pwivLHQ+3Q2DfjuO6QksfnDNpOPRKuZ2zaUnSNiSIuGOUhc2SnbddPNG61mjmzoNYWKn5Dr7I4Jn+8tzkAKNVjr+83AF2k0ZPVxWf7YZyiG2gwZtAAAAAElFTkSuQmCC"
+  //       },
+  //       {
+  //         "nome": "cozinha",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdRJREFUSEuVVgmSxCAIhJetedmYl8V9mSuCiHhk1pqaSmKEpummgvCPhQCQ5f3dtQ1H7yD/spy0x3iXI+6eH9BJWJfA5T8nDgCQTrl7BZDXYG1xI9hYavuU0u7ymK51eeroftp+4bcFJ+ruwuGQgIP1CJrAsex4593yH0u3CDktRs9bsQSNvZc9DSdQKmZONDQj1eCcrL7/QAbqxwUIidvGcejaUbQTDEaA3JEjRFHXA5ADAqRMCRZLK1CBz+0akBtanqKiIKgv8UcUqrUvcwWj/AkpI0e4meu6ODhgAsyXqNkCoWpSY3/jzxrIHiI+r8Lsh2jhAHiJE+cqBclbDxrSpqLWwARZOZfglRzxRZfGG0UBMzzjtKiHL24sN194v0uJUc0vVL9VINqvtIjk1THEMTWZ5HhLssHS38qUKiDOd+sWA477goOHndOoGaLNRIT2l402mNHQ0s3VRnobGu6MAnmKxqkH1kRNpj88KjAdwNWt3bB7MmAAzF0tc6E6Y2xjPY/OycNsIVoG+58H4rpFbtg1hw4mmgeUi7Uc777JRdchA9LwEuTf410mGJzcZRMowTm0GeCb6Wk/DJYyted26JZpHDK6nRMYEwwfKUupHMiRrT/ibOUkIEpkZgAAAABJRU5ErkJggg=="
+  //       },
+  //       {
+  //         "nome": "TV com cabo normal",
+  //         "svg": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZtJREFUSEuNVgGShDAICz/Tl+3ty/RnrEhLKUU8Z3bGqUICCbiEdhEAlnsCiMe9HobL3tEoi11fu5/dSS2RDzakJLIDh1hPSB5JupmyT6rBf1d6+Y1rhGwAzqRGI11UcIdJgqMl2UMr5Fyef5XA2qhWQYqvhxpzALQBLEz3VvFBjI2FPWFfdRolvlXQ0Tvb3o6NgJMFsFKYlWMnuzHoczGVslPnpI5aPSLAXxBOkdMAWq9d8rynD65Vsw5/nyDeI4A3XiGMl8ffG0DjzRRFVgAC1fYvhksfGUD3SWebVvCk4VOJBHBLdLffazAhO5sGGdcWhZOJaADQtH4vxdHvm6fYENbq3qw+UFoBMT0tuBVs9ahpQHxraYNGLL3zAEHMgnLwUqJBov4i4usaN0IKQLg7kWpgjFK/rja1E33fRB7rWs+CTYNBQ4uKWbEKJg3igLzZtNhXcdCMmm5M32uf5XXiphfaap81kEX3ubbgtn4+X1eT96skl4/QOe2iYsP8J/vTeLdv8qRvuZDXfx5FG0cFoe9puwtTGUayY34BLsgkUdNfHgAAAABJRU5ErkJggg=="
+  //       }
+  //     ],
+  //     "vermais": "https://www.airbnb.pt/rooms/15789410/amenities?guests=1&adults=1&s=67&unique_share_id=a19c0604-bd2d-489b-bfcc-b1436b4559c2&source_impression_id=p3_1713108777_9TuNQli9L8fW0T58",
+  //     "titleLink": "https://www.airbnb.pt/rooms/15789410?guests=1&adults=1&s=67&unique_share_id=a19c0604-bd2d-489b-bfcc-b1436b4559c2&source_impression_id=p3_1713108777_9TuNQli9L8fW0T58"
+  //   }
+  // ]
 }
