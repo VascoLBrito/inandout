@@ -82,7 +82,7 @@ export default {
           "  Localizado numa zona muito calma e sossegada, com todas as comodidades nas proximidades (transportes, hipermercado, creche, mercado acesso a Oeiras, Lisboa, Cascais) ideal para quem tem crianças ou animais de estimação.",
         ],
         imagem: [
-          "inandout/src/assets/carcavelos1.webp",
+          "inandout/src/assets/carcavelos1.png",
           "inandout/src/assets/carcavelos2.webp",
           "inandout/src/assets/carcavelos3.webp",
           "inandout/src/assets/carcavelos4.webp",
