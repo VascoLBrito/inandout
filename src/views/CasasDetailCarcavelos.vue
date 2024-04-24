@@ -66,9 +66,6 @@
 </template>
 
 <script>
-import { ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
-
 export default {
   props: ["casa"],
   data() {
@@ -85,18 +82,18 @@ export default {
           "  Localizado numa zona muito calma e sossegada, com todas as comodidades nas proximidades (transportes, hipermercado, creche, mercado acesso a Oeiras, Lisboa, Cascais) ideal para quem tem crianças ou animais de estimação.",
         ],
         imagem: [
-          "inandout/src/assets/Carcavelos/1.webp",
-          "inandout/src/assets/Carcavelos/2.webp",
-          "inandout/src/assets/Carcavelos/3.webp",
-          "inandout/src/assets/Carcavelos/4.webp",
-          "inandout/src/assets/Carcavelos/5.webp",
-          "inandout/src/assets/Carcavelos/6.webp",
-          "inandout/src/assets/Carcavelos/7.webp",
-          "inandout/src/assets/Carcavelos/8.webp",
-          "inandout/src/assets/Carcavelos/9.webp",
-          "inandout/src/assets/Carcavelos/10.webp",
-          "inandout/src/assets/Carcavelos/11.webp",
-          "inandout/src/assets/Carcavelos/12.webp",
+          "inandout/src/assets/carcavelos1.webp",
+          "inandout/src/assets/carcavelos2.webp",
+          "inandout/src/assets/carcavelos3.webp",
+          "inandout/src/assets/carcavelos4.webp",
+          "inandout/src/assets/carcavelos5.webp",
+          "inandout/src/assets/carcavelos6.webp",
+          "inandout/src/assets/carcavelos7.webp",
+          "inandout/src/assets/carcavelos8.webp",
+          "inandout/src/assets/carcavelos9.webp",
+          "inandout/src/assets/carcavelos10.webp",
+          "inandout/src/assets/carcavelos11.webp",
+          "inandout/src/assets/carcavelos12.webp",
         ],
         specs: [
           {

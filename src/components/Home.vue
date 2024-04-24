@@ -6,10 +6,10 @@ export default {
       activeMsg: 0,
       transitioning: false,
       image: [
-        "/inandout/src/assets/Carcavelos/1.webp",
-        "/inandout/src/assets/SeteRios/1.webp",
-        "/inandout/src/assets/Carcavelos/2.webp",
-        "/inandout/src/assets/rooms/room3.jpeg",
+        "/inandout/src/assets/carcavelos1.webp",
+        "/inandout/src/assets/SeteRios1.webp",
+        "/inandout/src/assets/Carcavelos2.webp",
+        "/inandout/src/assets/room3.jpeg",
       ],
       imgLength: 0,
     };
